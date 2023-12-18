@@ -1,0 +1,10 @@
+:root {
+    --title-bg-color-pink: rgb(255, 156, 156);
+    --title-text-color: rgb(43, 174, 179);
+    --toggle-color: rgb(255, 128, 128);
+    --background-color-main-: rgb(9, 70, 44);
+    --header-color:  rgb(254, 255, 216);
+}
+* {
+    box-sizing: border-box;
+}
