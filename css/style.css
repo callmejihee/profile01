@@ -1,10 +1,91 @@
 :root {
-    --title-bg-color-pink: rgb(255, 156, 156);
-    --title-text-color: rgb(43, 174, 179);
-    --toggle-color: rgb(255, 128, 128);
+    /*carebear color
+    --title-text-color-pink: rgb(255, 156, 156);
+    --title-text-color-green: rgb(43, 174, 179);
+    --toggle-color: rgb(255, 116, 116);
     --background-color-main-: rgb(9, 70, 44);
-    --header-color:  rgb(254, 255, 216);
+    --nav-color:  rgb(254, 255, 216);
+    */
+
+    /*--colors*/
+    --color-white:#fff;
+    --color-black:#050a13;
+    --color-blue: #03e8f9;
+    --color-orange: #fd6413;
+    --color-gray: #1b1e26;
+
+    /*app colors*/
+    --color-primary: var(--color-black);
+    --color-primary-variant: var(--color-gray);
+    --color-accent: var(--color-blue);
+    --color-accent-variant: var(--color-orange);
+    --color-text: var(--color-white); 
 }
 * {
     box-sizing: border-box;
+}
+html, body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+/*header 시작==========*/
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--color-black);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header_logo_img {
+    width: 34px;
+    height: 34px;
+}
+.header_logo_title {
+    font-size: 1.8rem;
+}
+.header_nav {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header_menu {
+    display: flex;
+    gap: 4px;
+}
+.header_menu_item {
+    display: block;
+    padding: 8px 16px;
+    border-bottom: 1px solid transparent;
+}
+.header_menu_item:hover {
+    border-bottom: 1px solid var(--color-accent);
+}
+.header_menu_item.active {
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+}
+.hamburger {
+    display: none;
 }

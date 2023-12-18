@@ -22,8 +22,19 @@
             font-family: 'Noto Sans KR', sans-serif;
         }
     </style>
+    <!-- google icon 시작-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        </style>
     <!-- CSS 시작-->
-    <link rel="stylesheet" href="css/sytle.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main_home.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/about.css">
@@ -37,6 +48,57 @@
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    
+    <!--Header 시작-->
+    <header class="header">
+        <!--로고 이미지 + 이름 시작-->
+        <div class="header_logo">
+            <img class="header_logo_img" src="images/carebear.png" alt="logo" width="34" />
+            <h1 class="header_logo_title">
+                <a href="#">Jihee</a>
+            </h1>
+        </div>
+        <!--우측 네비게이션 메뉴 시작-->
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li class="header_menu_item active"><a href="#home">Home</a></li>
+                <li class="header_menu_item"><a href="#about">About</a></li>
+                <li class="header_menu_item"><a href="#skills">Skills</a></li>
+                <li class="header_menu_item"><a href="#work">Work</a></li>
+                <li class="header_menu_item"><a href="#testimonial">Testimonial</a></li>
+                <li class="header_menu_item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--햄버거 버튼-->
+        <div class="hamburger">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </header>
+    <!--Main 시작-->
+    <main>
+        <section id="home">
+            로고+nav메뉴
+        </section>
+        <section id="about">
+            본인 소개
+        </section>
+        <section id="skills">
+            본인 스킬 소개
+        </section>
+        <section id="work">
+            제작 콘텐츠 소개
+        </section>
+        <section id="testimonial">
+            지인 추천글
+        </section>
+        <aside>
+            top버튼
+        </aside>
+    </main>
+    <!--Footer 시작-->
+    <footer>
+        footer 시작
+    </footer>
 </body>
 </html>
