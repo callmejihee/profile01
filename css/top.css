@@ -10,4 +10,5 @@
     border-radius: 100%;
     background-color: var(--color-primary);
     box-shadow: 2px 2px 0px var(--color-accent);
+    display: none;
 }
