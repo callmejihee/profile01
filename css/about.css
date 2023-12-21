@@ -3,6 +3,12 @@
     justify-content: space-between;
     gap: 1rem;
     margin: 2.5rem 0;
+    opacity: 1;
+    transition: all 0.4s;
+}
+.about_content.opacity {
+    opacity: 0;
+    transition: all 0.4s;
 }
 .max-container {
     max-width: 1200px;

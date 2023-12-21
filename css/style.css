@@ -54,8 +54,9 @@ a {
     align-items: center;
 }
 .header.scroll {
-    background: var(--color-orange);
+    background: rgba(255, 188, 188, 0.5);
     transition: all 0.4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header_logo {
     width: 20%;
