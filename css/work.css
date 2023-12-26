@@ -12,10 +12,11 @@
     position: relative;
     color: var(--color-text);
     font-size: 1.1rem;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3cqh;
     border-radius: 4px;
     border: 1px solid var(--color-accent);
     cursor: pointer;
+    white-space: nowrap;
 }
 .category_selected {
     background-color: var(--color-accent);
@@ -49,13 +50,11 @@
 .project {
     position: relative;
     border-radius: 10px;
+    height: 250px;
     overflow: hidden;
 }
 .project_img {
     width: 100%;
-}
-.project img {
-    width: 25rem;
 }
 .project_text {
     position: absolute;
