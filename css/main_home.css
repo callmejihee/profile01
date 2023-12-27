@@ -4,6 +4,7 @@
     padding: 5rem 1rem;
     padding-top: 7rem;
     text-align: center;
+    position: relative;
 }
 .home_avatar {
     width: 250px;
@@ -35,4 +36,23 @@
     background-color: transparent;
     color: var(--color-text);
     outline: 2px solid var(--color-accent);
+}
+.custom-shape-divider-bottom-1703651087 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1703651087 svg {
+    position: relative;
+    display: block;
+    width: calc(159% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom-1703651087 .shape-fill {
+    fill: #ffffff;
 }
