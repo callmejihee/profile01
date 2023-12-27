@@ -49,7 +49,10 @@ categories.forEach((button) => {
             }
 
         })
-
-
+        const active_button = document.querySelector('.category_selected');
+    
+        active_button.classList.remove('category_selected')
+        e.target.classList.add('category_selected');
+        console.log(e.target);
     })
 })
